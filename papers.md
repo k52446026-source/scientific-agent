@@ -1,23 +1,23 @@
 # 📚 Мои научные находки
 
-## 1. Revisiting Generalization Across Difficulty Levels: It's Not So Easy
-- **Авторы**: Yeganeh Kordi, Nihal V. Nayak, Max Zuo, Ilana Nguyen, Stephen H. Bach
-- **Дата**: 2025-11-26
-- **Ссылка**: [Читать на arXiv](http://arxiv.org/abs/2511.21692v1) | [PDF](https://arxiv.org/pdf/2511.21692v1)
+## 1. Improved Pseudorandom Codes from Permuted Puzzles
+- **Авторы**: Miranda Christ, Noah Golowich, Sam Gunn, Ankur Moitra, Daniel Wichs
+- **Дата**: 2025-12-09
+- **Ссылка**: [Читать на arXiv](http://arxiv.org/abs/2512.08918v1) | [PDF](https://arxiv.org/pdf/2512.08918v1)
 - **Аннотация**:
-  > We investigate how well large language models (LLMs) generalize across different task difficulties, a key question for effective data curation and evaluation. Existing research is mixed regarding whether training on easier or harder data leads to better results, and whether those gains come on easier or harder test data. We address this question by conducting a systematic evaluation of LLMs' gener...
+  > Watermarks are an essential tool for identifying AI-generated content. Recently, Christ and Gunn (CRYPTO '24) introduced pseudorandom error-correcting codes (PRCs), which are equivalent to watermarks with strong robustness and quality guarantees. A PRC is a pseudorandom encryption scheme whose decryption algorithm tolerates a high rate of errors. Pseudorandomness ensures quality preservation of th...
 
-## 2. Canvas-to-Image: Compositional Image Generation with Multimodal Controls
-- **Авторы**: Yusuf Dalva, Guocheng Gordon Qian, Maya Goldenberg, Tsai-Shien Chen, Kfir Aberman, Sergey Tulyakov, Pinar Yanardag, Kuan-Chieh Jackson Wang
-- **Дата**: 2025-11-26
-- **Ссылка**: [Читать на arXiv](http://arxiv.org/abs/2511.21691v1) | [PDF](https://arxiv.org/pdf/2511.21691v1)
+## 2. Revisiting the Scaling Properties of Downstream Metrics in Large Language Model Training
+- **Авторы**: Jakub Krajewski, Amitis Shidani, Dan Busbridge, Sam Wiseman, Jason Ramapuram
+- **Дата**: 2025-12-09
+- **Ссылка**: [Читать на arXiv](http://arxiv.org/abs/2512.08894v1) | [PDF](https://arxiv.org/pdf/2512.08894v1)
 - **Аннотация**:
-  > While modern diffusion models excel at generating high-quality and diverse images, they still struggle with high-fidelity compositional and multimodal control, particularly when users simultaneously specify text prompts, subject references, spatial arrangements, pose constraints, and layout annotations. We introduce Canvas-to-Image, a unified framework that consolidates these heterogeneous control...
+  > While scaling laws for Large Language Models (LLMs) traditionally focus on proxy metrics like pretraining loss, predicting downstream task performance has been considered unreliable. This paper challenges that view by proposing a direct framework to model the scaling of benchmark performance from the training budget. We find that for a fixed token-to-parameter ratio, a simple power law can accurat...
 
-## 3. TraceGen: World Modeling in 3D Trace Space Enables Learning from Cross-Embodiment Videos
-- **Авторы**: Seungjae Lee, Yoonkyo Jung, Inkook Chun, Yao-Chih Lee, Zikui Cai, Hongjia Huang, Aayush Talreja, Tan Dat Dao, Yongyuan Liang, Jia-Bin Huang, Furong Huang
-- **Дата**: 2025-11-26
-- **Ссылка**: [Читать на arXiv](http://arxiv.org/abs/2511.21690v1) | [PDF](https://arxiv.org/pdf/2511.21690v1)
+## 3. Toward Faithful Retrieval-Augmented Generation with Sparse Autoencoders
+- **Авторы**: Guangzhi Xiong, Zhenghao He, Bohan Liu, Sanchit Sinha, Aidong Zhang
+- **Дата**: 2025-12-09
+- **Ссылка**: [Читать на arXiv](http://arxiv.org/abs/2512.08892v1) | [PDF](https://arxiv.org/pdf/2512.08892v1)
 - **Аннотация**:
-  > Learning new robot tasks on new platforms and in new scenes from only a handful of demonstrations remains challenging. While videos of other embodiments - humans and different robots - are abundant, differences in embodiment, camera, and environment hinder their direct use. We address the small-data problem by introducing a unifying, symbolic representation - a compact 3D "trace-space" of scene-le...
+  > Retrieval-Augmented Generation (RAG) improves the factuality of large language models (LLMs) by grounding outputs in retrieved evidence, but faithfulness failures, where generations contradict or extend beyond the provided sources, remain a critical challenge. Existing hallucination detection methods for RAG often rely either on large-scale detector training, which requires substantial annotated d...
 
